@@ -1,13 +1,47 @@
 body {
-    color: black;
     background-color: whitesmoke;
     font-family: 'Libre Baskerville', serif;
     margin: 50px;
     box-sizing: border-box;
   }
 
-  .P1 {
-    font-size: 70px;
+  .title {
+    color: rgb(48, 48, 48);
+    text-shadow: 1px 0 10px #838383;
+  }
+
+  .stop {
+    font-size: 90px;
+  }
+
+  .ruining {
+    padding-left: 100px;
+    font-size: 80px; 
+  }
+
+  .starry {
+    padding-left: 200px;
+    font-size: 90px;
+  }
+
+  .nights {
+    padding-left: 300px;
+    font-size: 100px;
+  }
+
+  .stop:hover, .ruining:hover, .starry:hover, .nights:hover {
+    font-style: italic;
+    color: #EFEFEF;
+    text-shadow: 0 0 1px white;
+  }
+
+  .author {
+    font-size: 30px;
+  }
+
+  .note {
+    font-size: 15px;
+    color: #838383;
   }
 
   a {
@@ -19,3 +53,5 @@ body {
     color: #EFEFEF;
     text-shadow: 0 0 1px white;
    }
+
+   

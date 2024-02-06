@@ -38,6 +38,12 @@ body {
 
   .author {
     font-size: 30px;
+    text-shadow: 1px 0 10px #838383;
+  }
+
+  .author:hover, note:hover, a:hover {
+    opacity: 0%;
+    transition: opacity 0.2s;
   }
 
   .note {
@@ -48,11 +54,6 @@ body {
   a {
     color: #B4B4B4;
     text-decoration: none;
+    text-shadow: 1px 0 10px #838383;
    }
-
-   a:hover {
-    color: #EFEFEF;
-    text-shadow: 0 0 1px white;
-   }
-
    

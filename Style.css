@@ -41,7 +41,7 @@ body {
     text-shadow: 1px 0 10px #838383;
   }
 
-  .author:hover, note:hover, note:hover, a:hover {
+  .author:hover, .note:hover, a:hover {
     opacity: 0%;
     transition: opacity 0.2s;
   }

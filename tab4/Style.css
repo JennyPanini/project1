@@ -6,12 +6,12 @@ body {
     box-sizing: border-box;
   }
 
-  .one, .two, .three, .four {
+  .one, .two, .three {
     color: #B4B4B4;
     text-shadow: 0 0 4px #EFEFEF;
    }
 
-   .one:hover, .two:hover, .three:hover, .four:hover, .five:hover {
+   .one:hover, .two:hover, .three:hover {
     color: #EFEFEF;
     text-shadow: 0 0 1px white;
    }

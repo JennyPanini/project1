@@ -1,47 +1,74 @@
 body {
-    color: black;
-    background-color: whitesmoke;
-    font-family: 'Libre Baskerville', serif;
-    box-sizing: border-box;
-    font-size: 20px;
-    overflow-x: scroll;
-  }
+  color: black;
+  background-color: whitesmoke;
+  font-family: 'Libre Baskerville', serif;
+  box-sizing: border-box;
+  overflow-x: scroll;
+}
 
-  ::-moz-selection { /* Code for Firefox */
-    color: #B4B4B4;
-    background: whitesmoke;
-  }
-  
-  ::selection {
-    color: #B4B4B4;
-    background: whitesmoke;
-  }
+.container {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr); /* 6 columns */
+  grid-auto-rows: auto;
+  grid-gap: 10px; /* Gap between cells */
+}
 
-  .text{
-    border: 1px solid black;
-    height: 680px;
-    width: 50%;
-    overflow-x: scroll;
-    overflow-y: hidden;
-  }
+.click1 {
+  font-size: 30px;
+  grid-column: 1;
+  grid-row: 1;
+}
 
-  .one, .two, .three, .four {
-    color: #B4B4B4;
-    text-shadow: 0 0 4px #EFEFEF;
-    
-   }
+.everyone {
+  grid-column: 2;
+  grid-row: 1;
+}
 
-   .one:hover, .two:hover, .three:hover, .four:hover, .five:hover {
-    color: #EFEFEF;
-    text-shadow: 0 0 1px white;
-   }
+.study {
+  grid-column: 3;
+  grid-row: 2;
+}
 
-   a {
-    color: #B4B4B4;
-    text-decoration: none;
-   }
+.growing {
+  grid-column: 4;
+  grid-row: 3;
+}
 
-   a:hover {
-    color: #EFEFEF;
-    text-shadow: 0 0 1px white;
-   }
+.explanations {
+  grid-column: 5;
+  grid-row: 1; /* Adjust row position */
+}
+
+.excessive {
+  grid-column: 6;
+  grid-row: 2; /* Adjust row position */
+}
+
+.IDA {
+  grid-column: 1; /* Adjust column position */
+  grid-row: 2; /* Adjust row position */
+}
+
+.known {
+  grid-column: 3; /* Adjust column position */
+  grid-row: 3; /* Adjust row position */
+}
+
+.everyone:hover, .study:hover, .growing:hover, .explanations:hover, .excessive:hover, .IDA:hover, .known:hover {
+  color: #EFEFEF;
+  text-shadow: 0 0 1px white;
+}
+
+a {
+  color: #B4B4B4;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #EFEFEF;
+  text-shadow: 0 0 1px white;
+}
+
+.one {
+  font-size: 50px;
+}

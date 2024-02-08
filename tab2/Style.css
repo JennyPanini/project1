@@ -22,6 +22,7 @@ body {
 .everyone {
   grid-column: 2;
   grid-row: 1;
+  font-size: 40px;
 }
 
 .study {
@@ -30,8 +31,8 @@ body {
 }
 
 .growing {
-  grid-column: 4;
-  grid-row: 3;
+  grid-column: 4 !important;
+  grid-row: 4;
 }
 
 .explanations {

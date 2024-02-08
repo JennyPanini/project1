@@ -3,7 +3,8 @@ body {
     background-color: whitesmoke;
     font-family: 'Libre Baskerville', serif;
     box-sizing: border-box;
-    font-size: 50px;
+    font-size: 20px;
+    overflow-x: scroll;
   }
 
   ::-moz-selection { /* Code for Firefox */
@@ -16,9 +17,18 @@ body {
     background: whitesmoke;
   }
 
+  .text{
+    border: 1px solid black;
+    height: 680px;
+    width: 50%;
+    overflow-x: scroll;
+    overflow-y: hidden;
+  }
+
   .one, .two, .three, .four {
     color: #B4B4B4;
     text-shadow: 0 0 4px #EFEFEF;
+    
    }
 
    .one:hover, .two:hover, .three:hover, .four:hover, .five:hover {

@@ -2,8 +2,8 @@ body {
     color: black;
     background-color: whitesmoke;
     font-family: 'Libre Baskerville', serif;
-    margin: 50px;
     box-sizing: border-box;
+    font-size: 50px;
   }
 
   ::-moz-selection { /* Code for Firefox */

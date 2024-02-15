@@ -1,44 +1,95 @@
 body {
-    color: black;
-    background-color: #f5f5f5;
-    font-family: 'Libre Baskerville', serif;
-    box-sizing: border-box;
-    font-size: 20px;
+  color: rgb(0, 0, 0);
+  background-color: whitesmoke;
+  font-family: "Space Grotesk", sans-serif;
+  box-sizing: border-box;
+  overflow-x: scroll;
+}
+
+  p{
+    max-width: 55ch;
+    max-width: 100%;
   }
 
-  .content {
-    position: relative;
-    z-index: 10;
-  }
+.container {
+  display: grid;
+  /* grid-template-columns: repeat(6, 1fr); */
+  grid-gap: 10px;
+  grid-auto-rows: 60px;
+}
 
-  #light {
-    width: 120px;
-    height: 120px;
-    border-radius: 50%;
-    position: absolute;
-    transform: translate(var(--light-position-x, 0px), var(--light-position-y, 0px));
-    background-color: black;
-  }
+.one {
+  font-size: 33px;
+  grid-column: 1;
+  grid-row: 1;
+}
 
-  ::-moz-selection { /* Code for Firefox */
-    color: #f5f5f5;
-    background: #f5f5f5;
-  }
-  
-  ::selection {
-    color: #f5f5f5;
-    background: black;
-  }
+.two {
+  grid-column: 2;
+  grid-row: 7;
+  font-size: 28px;
+}
 
-  .one, .two, .three, .four, .click {
-    color: #f5f5f5;
-   }
+.three {
+  grid-column: 3;
+  grid-row: 15;
+  font-size: 26px;
+}
 
-   .click {
-    font-size: 25px;
-   }
+.four {
+  grid-column: 4;
+  grid-row: 18;
+  font-size: 22px;
+}
 
-   a {
-    color: #f5f5f5;
-    text-decoration: none;
-   }
+.five {
+  grid-column: 3;
+  grid-row: 28;
+  font-size: 20px;
+}
+
+.six {
+  grid-column: 2;
+  grid-row: 33;
+  font-size: 16px;
+}
+
+.seven {
+  grid-column: 1;
+  grid-row: 38;
+  font-size: 13px;
+}
+
+.eight {
+  grid-column: 2;
+  grid-row: 43;
+  font-size: 12px;
+}
+
+.nine {
+  grid-column: 3;
+  grid-row: 48;
+  font-size: 10px;
+}
+
+.ten {
+  grid-column: 4;
+  grid-row: 54;
+  font-size: 8px;
+}
+
+.click {
+  grid-column: 3;
+  grid-row: 60;
+  font-size: 6px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #EFEFEF;
+  text-shadow: 0 0 1px white;
+}

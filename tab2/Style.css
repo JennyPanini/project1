@@ -1,82 +1,84 @@
 body {
-    color: rgb(48, 48, 48);
-    background-color: whitesmoke;
-    font-family: "Space Grotesk", sans-serif;
-    box-sizing: border-box;
-    overflow-x: scroll;
+  color: rgb(48, 48, 48);
+  background-color: whitesmoke;
+  font-family: "Space Grotesk", sans-serif;
+  box-sizing: border-box;
+  overflow-x: scroll;
+}
+
+  p{
+    max-width: 55ch;
+    max-width: 100%;
   }
-  
-  .container {
-    display: grid;
-    /* grid-template-columns: repeat(6, 1fr); */
-    grid-gap: 10px;
-    grid-auto-rows: 60px;
-  }
-  
-  .click1 {
-    font-size: 25px;
-    grid-column: 1;
-    grid-row: 1;
-  }
-  
-  .everyone {
-    grid-column: 2;
-    grid-row: 4;
-    font-size: 20px;
-  }
-  
-  .study {
-    grid-column: 3;
-    grid-row: 7;
-    font-size: 17px;
-  }
-  
-  .growing {
-    grid-column: 6;
-    grid-row: 13;
-    font-size: 14px;
-  }
-  
-  .explanations {
-    grid-column: 3;
-    grid-row: 21; /* Adjust row position */
-    font-size: 12px;
-  }
-  
-  .excessive {
-    grid-column: 2;
-    grid-row: 23; /* Adjust row position */
-    font-size: 10px;
-  }
-  
-  .IDA {
-    grid-column: 1; /* Adjust column position */
-    grid-row: 25; /* Adjust row position */
-    font-size: 8px;
-  }
-  
-  .known {
-    grid-column: 2; /* Adjust column position */
-    grid-row: 28; /* Adjust row position */
-    font-size: 6px;
-  }
-  
-  .click {
-    grid-column: 3; /* Adjust column position */
-    grid-row: 30; /* Adjust row position */
-    font-size: 5px;
-  }
-  
-  a {
-    color: black;
-    text-decoration: none;
-  }
-  
-  a:hover {
-    color: #EFEFEF;
-    text-shadow: 0 0 1px white;
-  }
-  
-  .one {
-    font-size: 50px;
-  }
+
+.container {
+  display: grid;
+  /* grid-template-columns: repeat(6, 1fr); */
+  grid-gap: 10px;
+  grid-auto-rows: 60px;
+}
+
+.click1 {
+  font-size: 33px;
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.everyone {
+  grid-column: 2;
+  grid-row: 7;
+  font-size: 28px;
+}
+
+.study {
+  grid-column: 3;
+  grid-row: 15;
+  font-size: 26px;
+}
+
+.growing {
+  grid-column: 4;
+  grid-row: 18;
+  font-size: 22px;
+}
+
+.explanations {
+  grid-column: 3;
+  grid-row: 28;
+  font-size: 20px;
+}
+
+.excessive {
+  grid-column: 2;
+  grid-row: 33;
+  font-size: 16px;
+}
+
+.IDA {
+  grid-column: 1;
+  grid-row: 38;
+  font-size: 13px;
+}
+
+.known {
+  grid-column: 2;
+  grid-row: 43;
+  font-size: 12px;
+}
+
+.click {
+  grid-column: 3;
+  grid-row: 48;
+  font-size: 10px;
+}
+
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #EFEFEF;
+  text-shadow: 0 0 1px white;
+}

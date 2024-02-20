@@ -27,7 +27,7 @@ span {
 }
 
 span:hover {
-  text-shadow: 1px 0 20px rgb(211, 211, 211);
+  text-shadow: 1px 0 20px white;
   color: white;
 }
 
@@ -99,5 +99,5 @@ a {
 
 a:hover {
   color: white;
-  text-shadow: 0 0 1px white;
+  text-shadow: 1px 0 20px white;
 }

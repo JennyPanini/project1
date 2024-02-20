@@ -8,7 +8,7 @@ body {
 
 body:hover {
   background-color: rgb(113, 113, 113);
-  color: gray;
+  color: rgb(118, 118, 118);
   transition: 0.2s;
 }
 
@@ -18,7 +18,7 @@ body:hover {
   padding: 0.8rem;
   background-color: #fff;
   border-radius: 50%;
-  mix-blend-mode: difference;
+  mix-blend-mode: differences;
   transition: transform 0.3s ease;
 }
 

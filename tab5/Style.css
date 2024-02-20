@@ -8,7 +8,17 @@ body {
 
 body:hover {
   background-color: black;
-  transition: 0.2s;
+  transition: 2s;
+}
+
+.cursor {
+  pointer-events: none;
+  position: fixed;
+  padding: 1.2rem;
+  background-color: #fff;
+  border-radius: 50%;
+  mix-blend-mode: difference;
+  transition: transform 0.3s ease;
 }
 
 .container {

@@ -1,15 +1,9 @@
 body {
   color: white;
-  background-color: black;
+  background-color: rgb(47, 47, 47);
   font-family: "Space Grotesk", sans-serif;
   box-sizing: border-box;
   margin: 50px;
-}
-
-body:hover {
-  background-color: rgb(47, 47, 47);
-  color: rgb(246, 246, 246);
-  transition: 0.2s;
 }
 
 .cursor {

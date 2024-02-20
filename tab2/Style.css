@@ -7,7 +7,7 @@ body {
 }
 
 body:hover {
-  background-color: gray;
+  background-color: rgb(113, 113, 113);
   color: gray;
   transition: 0.2s;
 }
@@ -15,9 +15,10 @@ body:hover {
 .cursor {
   pointer-events: none;
   position: fixed;
-  padding: 0.9rem;
-  background-color: white;
+  padding: 0.8rem;
+  background-color: #fff;
   border-radius: 50%;
+  mix-blend-mode: difference;
   transition: transform 0.3s ease;
 }
 

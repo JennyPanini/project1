@@ -1,6 +1,6 @@
 body {
-  color: white;
-  background-color: black;
+  color: rgb(183, 183, 183);
+  background-color: white;
   font-family: "Space Grotesk", sans-serif;
   box-sizing: border-box;
   margin: 50px;
@@ -25,21 +25,20 @@ body {
   pointer-events: none;
   background: radial-gradient(
     circle 20vmax at var(--cursorX) var(--cursorY),
-    rgba(0, 0, 0, 0) 0%,
-    rgba(193, 193, 193, 0.5) 100%,
-    rgba(255, 255, 255, 0.95) 100%
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 0.5) 100%,
+    rgba(81, 81, 81, 0.95) 100%
   )
 }
 
 .one:hover, .two:hover, .three:hover, .four:hover, .five:hover, .six:hover, .seven:hover, .eight:hover {
-  color: black;
+  color: white;
   transition: 0.2s;
 }
 
 
 span:hover {
-  text-shadow: 1px 0 20px white;
-  color: white;
+  color: black;
 }
 
 .container {

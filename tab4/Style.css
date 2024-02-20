@@ -21,9 +21,9 @@ body {
   position: fixed;
   pointer-events: none;
   background: radial-gradient(
-    circle 20vmax at var(--cursorX) var(--cursorY),
+    circle 12vmax at var(--cursorX) var(--cursorY),
     rgba(0, 0, 0, 0) 0%,
-    rgba(255, 255, 255, 0.5) 80%,
+    rgba(255, 255, 255, 0.5) 100%,
     rgba(255, 255, 255, 0.95) 100%
   )
 }

@@ -9,6 +9,7 @@ body {
 body:hover {
   background-color: black;
   transition: 2s;
+  text-shadow: 1px 0 10px white;
 }
 
 .cursor {
@@ -46,5 +47,5 @@ a {
 }
 
 span:hover {
-  font-style: italic;
+  text-shadow: 1px 0 10px black;
 }

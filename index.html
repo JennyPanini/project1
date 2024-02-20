@@ -9,8 +9,8 @@
   <script type="text/javascript" src="script.js" defer></script>
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
 
   <meta name="Generator" content="Cocoa HTML Writer">
   <meta name="CocoaVersion" content="2487">
@@ -19,17 +19,59 @@
 
 
 <body>
-<div class="container">
-  <div class="container2">
+
+
+<div class="nav-wrapper">
+<nav>
+  <div class="container">
     <div class="title">
       <div class="stop">Stop</div>
       <div class="ruining">Ruining</div>
       <div class="starry">Starry</div>
-      <div class="nights">Nights</div>
+      <div class="night">Nights</div>
     </div>
+      <div class="author">Andrea Stanley</div>
+      <div class="click"><a href="https://jennypanini.github.io/project1//tab1/index.html">Proceed</a></div>
   </div>
-    <div class="author">Andrea Stanley</div>
-    <div class="click"><a href="https://jennypanini.github.io/project1//tab1/index.html">Proceed</a></div>
+
+  <div class="cursor"></div>
+</nav>
 </div>
+
+
+  <script>
+
+    (function () {
+    
+          const link = document.querySelectorAll('nav > .container');
+          const cursor = document.querySelector('.cursor');
+    
+          const animateit = function (e) {
+                const span = this.querySelector('span');
+                const { offsetX: x, offsetY: y } = e,
+                { offsetWidth: width, offsetHeight: height } = this,
+    
+                move = 25,
+                xMove = x / width * (move * 2) - move,
+                yMove = y / height * (move * 2) - move;
+    
+                span.style.transform = `translate(${xMove}px, ${yMove}px)`;
+    
+                if (e.type === 'mouseleave') span.style.transform = '';
+          };
+    
+          const editCursor = e => {
+                const { clientX: x, clientY: y } = e;
+                cursor.style.left = x + 'px';
+                cursor.style.top = y + 'px';
+          };
+    
+          link.forEach(b => b.addEventListener('mousemove', animateit));
+          link.forEach(b => b.addEventListener('mouseleave', animateit));
+          window.addEventListener('mousemove', editCursor);
+    
+    })();
+    
+    </script>
 </body>
 </html>

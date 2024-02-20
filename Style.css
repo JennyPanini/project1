@@ -1,51 +1,81 @@
 body {
-    background-color: whitesmoke;
-    font-family: 'Libre Baskerville', serif;
+    background-color: black;
+    font-family: "Space Grotesk", sans-serif;
     box-sizing: border-box;
+    color: white;
+    text-shadow: 1px 0 10px white;
   }
 
+  nav {
+    top: 10%;
+    text-align: center;
+    position: absolute;
+}
 
-  .title {
-    color: rgb(48, 48, 48);
-    text-shadow: 1px 0 10px #838383;
+.nav-wrapper:hover {
+  transition: all 0.3s ease;
+}
+
+.cursor {
+  pointer-events: none;
+  position: fixed;
+  padding: 0.7rem;
+  background-color: white;
+  border-radius: 50%;
+  mix-blend-mode: difference;
+  transition: transform 0.3s ease;
+}
+
+.stop:hover, .ruining:hover, .starry:hover, .night:hover, .author:hover, .click:hover ~ .cursor {
+  transform: translate(-30%, -30%) scale(6);
+}
+
+  .container {
+    display: grid;
+  }
+
+  .container2 {
+    display: grid;
+    margin: 50px;
   }
 
   .stop {
-    font-size: 80px;
-    opacity: 100%;
+    font-size: 5vw;
   }
 
   .ruining {
-    padding-left: 100px;
-    font-size: 100px; 
+    padding-left: 15vw;
+    font-size: 7vw; 
   }
 
   .starry {
-    padding-left: 200px;
-    font-size: 200px;
+    padding-left: 30vw;
+    font-size: 10vw;
   }
 
-  .nights {
-    padding-left: 300px;
-    font-size: 100px;
-  }
-
-  .stop:hover, .ruining:hover, .starry:hover, .nights:hover, .author:hover {
-    font-style: italic;
-    opacity: 0%;
-    transition: opacity 0.2s;
+  .night {
+    padding-left: 15vw;
+    font-size: 8vw;
   }
 
   .author {
-    font-size: 30px;
-    padding-left: 550px;
-    text-shadow: 1px 0 10px #838383;
+    font-size: 3vw;
+    padding-left: 2vw;
+    padding-top: 2vw;
+  }
+
+  .click {
+    font-size: 2vw;
+    padding-left: 20vw;
+    padding-top: 2vw;
   }
 
   a {
-    color: #838383;
+    color: white;
     text-decoration: none;
-    padding-left: 550px;
-    text-shadow: 1px 0 10px #838383;
+    padding-left: 100px;
+    text-shadow: 1px 0 10px white;
    }
-   
+ 
+
+

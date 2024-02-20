@@ -12,10 +12,6 @@ body {
     position: absolute;
 }
 
-.nav-wrapper:hover {
-  transition: all 0.3s ease;
-}
-
 .cursor {
   pointer-events: none;
   position: fixed;
@@ -30,44 +26,45 @@ body {
   transform: translate(-30%, -30%) scale(6);
 }
 
+
   .container {
     display: grid;
   }
 
   .container2 {
     display: grid;
-    margin: 50px;
+    margin: 40px;
   }
 
   .stop {
-    font-size: 5vw;
+    font-size: 8vh;
   }
 
   .ruining {
-    padding-left: 15vw;
-    font-size: 7vw; 
+    padding-left: 25vw;
+    font-size: 10vh; 
   }
 
   .starry {
-    padding-left: 30vw;
-    font-size: 10vw;
+    padding-left: 35vw;
+    font-size: 15vh;
   }
 
   .night {
     padding-left: 15vw;
-    font-size: 8vw;
+    font-size: 20vh;
   }
 
   .author {
-    font-size: 3vw;
+    font-size: 4vh;
     padding-left: 2vw;
-    padding-top: 2vw;
+    padding-top: 2vh;
   }
 
   .click {
-    font-size: 2vw;
-    padding-left: 20vw;
-    padding-top: 2vw;
+    font-size: 3vh;
+    padding-left: 12vw;
+    padding-top: 2vh;
   }
 
   a {

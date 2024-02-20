@@ -1,9 +1,13 @@
 body {
-  color: rgb(85, 85, 85);
+  color: rgb(53, 53, 53);
   background-color: rgb(47, 47, 47);
   font-family: "Space Grotesk", sans-serif;
   box-sizing: border-box;
   margin: 50px;
+}
+
+::selection {
+  background: rgb(53, 53, 53);;
 }
 
 .cursor {

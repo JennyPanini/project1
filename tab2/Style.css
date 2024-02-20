@@ -6,9 +6,13 @@ body {
   margin: 50px;
 }
 
+::selection {
+  opacity: 0%;
+}
+
 body:hover {
   background-color: rgb(113, 113, 113);
-  color: rgb(118, 118, 118);
+  color: rgb(113, 113, 113);
   transition: 0.2s;
 }
 

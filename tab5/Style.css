@@ -6,7 +6,11 @@ body {
   margin: 50px;
 }
 
-body:hover {
+::selection {
+  opacity: 0%;
+}
+
+body:hover { 
   background-color: black;
   transition: 2s;
   text-shadow: 1px 0 10px white;
@@ -47,5 +51,5 @@ a {
 }
 
 span:hover {
-  text-shadow: 1px 0 10px black;
+  text-shadow: 1px 0 10px rgb(85, 85, 85);;
 }

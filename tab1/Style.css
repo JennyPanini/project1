@@ -1,15 +1,15 @@
 body {
-  color: gray;
+  color: white;
   background-color: black;
   font-family: "Space Grotesk", sans-serif;
   box-sizing: border-box;
   margin: 50px;
-  text-align: center;
 }
 
 body:hover {
-  background-color: white;
+  background-color: rgb(31, 31, 31);
   color: rgb(246, 246, 246);
+  transition: 0.2s;
 }
 
 .cursor {

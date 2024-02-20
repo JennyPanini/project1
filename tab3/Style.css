@@ -1,15 +1,26 @@
 body {
-  color: black;
-  background-color: whitesmoke;
-  font-family: 'Libre Baskerville', serif;
+  color: gray;
+  background-color: black;
+  font-family: "Space Grotesk", sans-serif;
   box-sizing: border-box;
-  overflow-x: scroll;
+  margin: 50px;
 }
 
-  p{
-    max-width: 55ch;
-    max-width: 100%;
-  }
+body:hover {
+  background-color: white;
+  color: gray;
+  transition: 0.2s;
+}
+
+.cursor {
+  pointer-events: none;
+  position: fixed;
+  padding: 2rem;
+  background-color: gray;
+  border-radius: 50%;
+  transition: transform 0.3s ease;
+}
+
 
 .container {
   display: grid;

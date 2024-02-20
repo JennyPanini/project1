@@ -1,15 +1,34 @@
 body {
-  color: rgb(48, 48, 48);
-  background-color: whitesmoke;
+  color: white;
+  background-color: black;
   font-family: "Space Grotesk", sans-serif;
   box-sizing: border-box;
-  overflow-x: scroll;
+  margin: 50px;
 }
 
-  p{
-    max-width: 55ch;
-    max-width: 100%;
-  }
+body:hover {
+  background-color: gray;
+  color: gray;
+  transition: 0.2s;
+}
+
+.cursor {
+  pointer-events: none;
+  position: fixed;
+  padding: 0.9rem;
+  background-color: white;
+  border-radius: 50%;
+  transition: transform 0.3s ease;
+}
+
+span {
+  color: white;
+}
+
+span:hover {
+  text-shadow: 1px 0 20px rgb(211, 211, 211);
+  color: white;
+}
 
 .container {
   display: grid;
@@ -19,7 +38,7 @@ body {
 }
 
 .click1 {
-  font-size: 33px;
+  font-size: 4vh;
   grid-column: 1;
   grid-row: 1;
 }
@@ -27,58 +46,70 @@ body {
 .everyone {
   grid-column: 2;
   grid-row: 7;
-  font-size: 28px;
+  font-size: 4vh;
 }
 
 .study {
-  grid-column: 3;
-  grid-row: 15;
-  font-size: 26px;
+  grid-column: 1/2;
+  grid-row: 22;
+  font-size: 2vh;
 }
 
 .growing {
-  grid-column: 4;
-  grid-row: 18;
-  font-size: 22px;
+  grid-column: 3;
+  grid-row: 28;
+  font-size: 2vh;
+}
+
+.water {
+  grid-column: 2;
+  grid-row:35;
+  font-size: 2vh;
 }
 
 .explanations {
   grid-column: 3;
-  grid-row: 28;
-  font-size: 20px;
+  grid-row: 42;
+  font-size: 4vh;
 }
 
 .excessive {
-  grid-column: 2;
-  grid-row: 33;
-  font-size: 16px;
+  grid-column: 1;
+  grid-row: 46;
+  font-size: 4vh;
 }
 
 .IDA {
-  grid-column: 1;
-  grid-row: 38;
-  font-size: 13px;
+  grid-column: 2;
+  grid-row: 50;
+  font-size: 2vh;
 }
 
 .known {
-  grid-column: 2;
-  grid-row: 43;
-  font-size: 12px;
+  grid-column: 4;
+  grid-row: 57;
+  font-size: 2vh;
+}
+
+.skyglow {
+  grid-column: 3;
+  grid-row: 64;
+  font-size: 2vh;
 }
 
 .click {
-  grid-column: 3;
-  grid-row: 48;
-  font-size: 10px;
+  grid-column: 2/4;
+  grid-row: 69;
+  font-size: 4vh;
 }
 
 
 a {
-  color: black;
+  color: white;
   text-decoration: none;
 }
 
 a:hover {
-  color: #EFEFEF;
+  color: white;
   text-shadow: 0 0 1px white;
 }

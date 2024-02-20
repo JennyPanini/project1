@@ -2,7 +2,7 @@ body {
     background-color: black;
     font-family: "Space Grotesk", sans-serif;
     box-sizing: border-box;
-    color: gray;
+    color: rgb(85, 85, 85);
   }
 
   nav {

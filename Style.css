@@ -2,8 +2,7 @@ body {
     background-color: black;
     font-family: "Space Grotesk", sans-serif;
     box-sizing: border-box;
-    color: white;
-    text-shadow: 1px 0 10px white;
+    color: gray;
   }
 
   nav {
@@ -18,12 +17,13 @@ body {
   padding: 0.7rem;
   background-color: white;
   border-radius: 50%;
-  mix-blend-mode: difference;
   transition: transform 0.3s ease;
 }
 
 .stop:hover, .ruining:hover, .starry:hover, .night:hover, .author:hover, .click:hover ~ .cursor {
-  transform: translate(-30%, -30%) scale(6);
+  transform: translate(-10%, -10%) scale(8);
+  text-shadow: 1px 0 10px white;
+  color: white;
 }
 
 
@@ -41,12 +41,12 @@ body {
   }
 
   .ruining {
-    padding-left: 25vw;
+    padding-left: 20vw;
     font-size: 10vh; 
   }
 
   .starry {
-    padding-left: 35vw;
+    padding-left: 30vw;
     font-size: 15vh;
   }
 
@@ -68,9 +68,13 @@ body {
   }
 
   a {
-    color: white;
+    color: gray;
     text-decoration: none;
     padding-left: 100px;
+   }
+
+   a:hover {
+    color: white;
     text-shadow: 1px 0 10px white;
    }
  

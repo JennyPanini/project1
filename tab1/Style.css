@@ -1,19 +1,21 @@
 body {
-  color: rgb(53, 53, 53);
-  background-color: rgb(47, 47, 47);
+  color: rgb(168, 168, 168);
+  background-color: black;
   font-family: "Space Grotesk", sans-serif;
   box-sizing: border-box;
-  margin: 50px;
+  padding: 50px;
+  text-align: center;
 }
 
 ::selection {
   background: rgb(53, 53, 53);;
 }
 
+
 .cursor {
   pointer-events: none;
   position: fixed;
-  padding: 0.5rem;
+  padding: 0.8rem;
   background-color: #fff;
   border-radius: 50%;
   mix-blend-mode: difference;
@@ -24,15 +26,15 @@ body {
   mix-blend-mode: difference;
 }
 
-.one:hover, .two:hover, .four:hover, .five:hover, .six:hover, .seven:hover, .eight:hover, .nine:hover, .ten:hover {
-  transform: scale(10);
-  text-shadow: 1px 0 20px rgb(211, 211, 211);
+.one:hover, .two:hover, .three:hover, .four:hover, .five:hover, .six:hover, .seven:hover, .eight:hover, .nine:hover, .ten:hover {
+  transform: scale(2);
+  text-shadow: 2px 0 30px rgb(211, 211, 211);
   color: white;
 }
 
-.three:hover, .click:hover {
-  transform: scale(4);
-  text-shadow: 1px 0 20px rgb(211, 211, 211);
+.click:hover {
+  transform: scale(2);
+  text-shadow: 1px 0 30px rgb(211, 211, 211);
   color: white;
 }
 
@@ -44,74 +46,45 @@ body {
 }
 
 .one {
-  font-size: 4vh;
   grid-column: 1;
   grid-row: 1;
+  font-size: 1.5vw;
 }
 
 .two {
   grid-column: 2;
   grid-row: 7;
-  font-size: 2vh;
+  font-size: 1.5vw;
 }
 
 .three {
   grid-column: 3;
   grid-row: 15;
-  font-size: 10vh;
+  font-size: 1.5vw;
 }
 
 .four {
   grid-column: 4;
   grid-row: 20;
-  font-size: 2vh;
+  font-size: 1.5vw;
 }
 
 .five {
   grid-column: 3;
   grid-row: 28;
-  font-size: 4vh;
-}
-
-.six {
-  grid-column: 2;
-  grid-row: 33;
-  font-size: 4vh;
-}
-
-.seven {
-  grid-column: 1;
-  grid-row: 38;
-  font-size: 2vh;
-}
-
-.eight {
-  grid-column: 2;
-  grid-row: 43;
-  font-size: 2vh;
-}
-
-.nine {
-  grid-column: 4;
-  grid-row: 48;
-  font-size: 2vh;
-}
-
-.ten {
-  grid-column: 3/5;
-  grid-row: 54;
-  font-size: 2vh;
+  font-size: 1.5vw;
 }
 
 .click {
   grid-column: 2/4;
-  grid-row: 60;
-  font-size: 10vh;
+  grid-row: 40;
+  font-size: 1.5vw;
 }
 
 a {
   text-decoration: none;
-  color: rgb(246, 246, 246);
+  color: rgb(168, 168, 168);
+  font-size: 2vw;
 }
 
 a:hover {

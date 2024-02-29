@@ -1,19 +1,22 @@
 body {
-  color: white;
-  background-color: black;
+  color: rgb(185, 185, 185);
   font-family: "Space Grotesk", sans-serif;
   box-sizing: border-box;
-  margin: 50px;
+  padding: 50px;
+  animation: pulse 8s infinite;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    background-color: rgb(185, 185, 185);
+  }
+  50% {
+    background-color: rgb(29, 29, 29);
+  }
 }
 
 ::selection {
   opacity: 0%;
-}
-
-body:hover {
-  background-color: rgb(113, 113, 113);
-  color: rgb(113, 113, 113);
-  transition: 0.2s;
 }
 
 .cursor {
@@ -43,75 +46,76 @@ span:hover {
 }
 
 .click1 {
-  font-size: 4vh;
   grid-column: 1;
   grid-row: 1;
+  font-size: 1.5vw;
 }
 
 .everyone {
   grid-column: 2;
   grid-row: 7;
-  font-size: 4vh;
+  font-size: 1.5vw;
 }
 
 .study {
   grid-column: 1/2;
   grid-row: 22;
-  font-size: 2vh;
+  font-size: 1.5vw;
 }
 
 .growing {
   grid-column: 3;
   grid-row: 28;
-  font-size: 2vh;
+  font-size: 1.5vw;
 }
 
 .water {
   grid-column: 2;
   grid-row:35;
-  font-size: 2vh;
+  font-size: 1.5vw;
 }
 
 .explanations {
   grid-column: 3;
   grid-row: 42;
-  font-size: 4vh;
+  font-size: 1.5vw;
 }
 
 .excessive {
   grid-column: 1;
   grid-row: 46;
-  font-size: 4vh;
+  font-size: 1.5vw;
 }
 
 .IDA {
   grid-column: 2;
   grid-row: 50;
-  font-size: 2vh;
+  font-size: 1.5vw;
 }
 
 .known {
   grid-column: 4;
   grid-row: 57;
-  font-size: 2vh;
+  font-size: 1.5vw;
 }
 
 .skyglow {
   grid-column: 3;
   grid-row: 64;
-  font-size: 2vh;
+  font-size: 1.5vw;
 }
 
 .click {
   grid-column: 2/4;
   grid-row: 69;
-  font-size: 4vh;
+  font-size: 1.5vw;
 }
 
 
 a {
   color: white;
   text-decoration: none;
+  font-size: 2vw;
 }
 
 a:hover {

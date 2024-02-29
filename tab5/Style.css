@@ -6,9 +6,7 @@ body {
   padding: 50px;
 }
 
-::selection {
-  opacity: 0%;
-}
+
 
 /* Flashlight Mouse Cursor, taken from Codepen.io by Tommy Hodgins */
 :root {

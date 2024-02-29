@@ -1,9 +1,9 @@
 body {
-  color: rgb(183, 183, 183);
+  color: black;
   background-color: white;
   font-family: "Space Grotesk", sans-serif;
   box-sizing: border-box;
-  margin: 50px;
+  padding: 50px;
 }
 
 ::selection {
@@ -37,7 +37,7 @@ body {
 }
 
 
-span:hover {
+span {
   color: black;
 }
 
@@ -51,63 +51,63 @@ span:hover {
 .one {
   grid-column: 3/5;
   grid-row: 1;
-  font-size: 4vh;
+  font-size: 1.5vw;
 }
 
 .two {
   grid-column: 2;
   grid-row: 12;
-  font-size: 4vh;
+  font-size: 1.5vw;
 }
 
 .three {
   grid-column: 1;
   grid-row: 23;
-  font-size: 2vh;
+  font-size: 1.5vw;
 }
 
 .four {
   grid-column: 2;
   grid-row:30;
-  font-size: 2vh;
+  font-size: 1.5vw;
 }
 
 .five {
   grid-column: 3;
   grid-row: 37;
-  font-size: 4vh;
+  font-size: 1.5vw;
 }
 
 .six {
   grid-column: 4;
   grid-row: 50;
-  font-size: 4vh;
+  font-size: 1.5vw;
 }
 
 .seven {
   grid-column: 3;
   grid-row: 65;
-  font-size: 2vh;
+  font-size: 1.5vw;
 }
 
 .eight {
   grid-column: 2;
   grid-row: 72;
-  font-size: 2vh;
+  font-size: 1.5vw;
 }
 
 .click {
   grid-column: 1;
   grid-row: 77;
-  font-size: 4vh;
+  font-size: 1.5vw;
 }
 
 a {
-  color: white;
+  color: black;
   text-decoration: none;
+  font-size: 2vw;
 }
 
 a:hover {
-  color: white;
   text-shadow: 1px 0 20px white;
 }
